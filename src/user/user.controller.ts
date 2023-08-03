@@ -1,9 +1,10 @@
-import { Request, Response } from "express";
-import UserService from "./user.service";
+import { Request, Response } from 'express';
+import UserService from './user.service';
 
 class UserController {
   private readonly userService: UserService = new UserService();
 
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   constructor() {}
 
   public getAllUser = async (_req: Request, res: Response) => {
@@ -36,7 +37,7 @@ class UserController {
     const updatedUser = await this.userService.updateUserByID(userId, userBody);
     res.status(200).json({
       ok: true,
-      message: `User was update `,
+      message: 'User was update',
       user: updatedUser,
     });
   };

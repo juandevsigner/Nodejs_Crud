@@ -1,15 +1,15 @@
-import express from "express";
-import displayRoutes from "express-routemap";
-import cors from "cors";
-import cookieParser from "cookie-parser";
-import hpp from "hpp";
-import helmet from "helmet";
+import express from 'express';
+import displayRoutes from 'express-routemap';
+import cors from 'cors';
+import cookieParser from 'cookie-parser';
+import hpp from 'hpp';
+import helmet from 'helmet';
 
-import { API_VERSION, ConfigServer, NODE_ENV, PORT } from "./config/config";
-import { Routes } from "./interfaces/route.interface";
-import { logger } from "./utils/logger";
-import { corsConfig } from "./config/cors.config";
-import { DataSource } from "typeorm";
+import { API_VERSION, ConfigServer, NODE_ENV, PORT } from './config/config';
+import { Routes } from './interfaces/route.interface';
+import { logger } from './utils/logger';
+import { corsConfig } from './config/cors.config';
+import { DataSource } from 'typeorm';
 
 class App extends ConfigServer {
   public app: express.Application;
@@ -21,7 +21,7 @@ class App extends ConfigServer {
     super();
     this.app = express();
     this.port = Number(PORT) || 5000;
-    this.env = NODE_ENV || "development";
+    this.env = NODE_ENV || 'development';
 
     this.connectToDatabase();
     this.initializeMiddlewares();
@@ -77,7 +77,9 @@ class App extends ConfigServer {
     });
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   private initializeErrorHanding() {}
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   private initializeSwagger() {}
 }
 

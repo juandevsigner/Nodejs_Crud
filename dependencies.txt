@@ -4,4 +4,10 @@ npm install -D @types/bcrypt @types/cookie-parser @types/cors @types/dotenv @typ
 
 dependencies
 
-npm install axios bcrypt class-sanitizer class-transformer class-validator cookie-parser cors cross-env dotenv express express-routemap helmet hpp http-status-codes morgan mysql reflect-metadata typeorm typeorm-naming-strategies typescript winston winston-daily-rotate-file
+npm install axios bcrypt class-sanitizer class-transformer class-validator cookie-parser cors cross-env dotenv express express-routemap helmet hpp http-status-codes morgan mysql reflect-metadata typeorm typeorm-naming-strategies typescript winston winston-daily-rotate-file 
+
+npm install eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
+
+npm install prettier eslint-config-prettier eslint-plugin-prettier -D
+
+npx husky add .husky/pre-commit "npx --no-install lint-staged"
