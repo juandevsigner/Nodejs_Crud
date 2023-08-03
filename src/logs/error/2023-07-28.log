@@ -1,0 +1,44 @@
+2023-07-28 11:57:03 error: uncaughtException: app.use() requires a middleware function
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\Usuario\Desktop\node backend\node_modules\express\lib\application.js:217:11)
+    at C:\Users\Usuario\Desktop\node backend\src\app.ts:23:16
+    at Array.forEach (<anonymous>)
+    at App.initializedRoutes (C:\Users\Usuario\Desktop\node backend\src\app.ts:22:12)
+    at new App (C:\Users\Usuario\Desktop\node backend\src\app.ts:15:10)
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\index.ts:4:13)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-10777403470303337.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+2023-07-28 15:02:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(29,29): error TS2304: Cannot find name 'user'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(29,29): error TS2304: Cannot find name 'user'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\routes\user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-7354664694435613.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-7354664694435613.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-7354664694435613.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-07-28 15:24:11 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(37,13): error TS6133: 'userBody' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(37,13): error TS6133: 'userBody' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\routes\user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-6479348006696348.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-6479348006696348.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-6479348006696348.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)

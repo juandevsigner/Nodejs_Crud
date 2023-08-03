@@ -1,0 +1,7 @@
+Dev dependencies
+
+npm install -D @types/bcrypt @types/cookie-parser @types/cors @types/dotenv @types/express @types/express-routemap @types/helmet @types/hpp @types/morgan @types/node @types/swagger-jsdoc @types/swagger-ui-express @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-prettier lint-staged prettier swagger-jsdoc swagger-ui-express
+
+dependencies
+
+npm install axios bcrypt class-sanitizer class-transformer class-validator cookie-parser cors cross-env dotenv express express-routemap helmet hpp http-status-codes morgan mysql reflect-metadata typeorm typeorm-naming-strategies typescript winston winston-daily-rotate-file

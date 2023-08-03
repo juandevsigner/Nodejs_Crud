@@ -1,0 +1,244 @@
+2023-08-03 10:25:08 error: uncaughtException: Error trying to connect with DATABASE
+Error: Error trying to connect with DATABASE
+    at mySqlConnection (C:\Users\Usuario\Desktop\node backend\src\db\mysql.config.ts:15:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-08-03 10:36:33 error: uncaughtException: Error trying to connect with DATABASE
+Error: Error trying to connect with DATABASE
+    at mySqlConnection (C:\Users\Usuario\Desktop\node backend\src\db\mysql.config.ts:15:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-08-03 11:27:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(17,61): error TS2339: Property 'getUserById' does not exist on type 'UserController'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(17,61): error TS2339: Property 'getUserById' does not exist on type 'UserController'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\routes\user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-03 11:31:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(1,18): error TS6133: 'Request' is declared but its value is never read.
+src/routes/user.routes.ts(1,27): error TS6133: 'Response' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(1,18): error TS6133: 'Request' is declared but its value is never read.
+src/routes/user.routes.ts(1,27): error TS6133: 'Response' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\routes\user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-03 14:22:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(2,1): error TS6133: 'logger' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(2,1): error TS6133: 'logger' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-03 14:36:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(5,20): error TS6133: 'userService' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(5,20): error TS6133: 'userService' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-03 14:37:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(10,11): error TS6133: 'userResponse' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(10,11): error TS6133: 'userResponse' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-03 14:39:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(5,11): error TS6133: 'users' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(5,11): error TS6133: 'users' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-03 14:47:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(15,28): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(17,31): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(18,31): error TS6133: 'id' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(15,28): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(17,31): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(18,31): error TS6133: 'id' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-03 14:47:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(15,28): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(17,31): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(18,31): error TS6133: 'id' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(15,28): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(17,31): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(18,31): error TS6133: 'id' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-03 14:49:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(20,31): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(21,31): error TS6133: 'id' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(20,31): error TS6133: 'id' is declared but its value is never read.
+src/user/user.service.ts(21,31): error TS6133: 'id' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-03 14:50:44 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(20,27): error TS6133: 'userBody' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(20,27): error TS6133: 'userBody' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-03 14:51:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(20,27): error TS6133: 'userBody' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(20,27): error TS6133: 'userBody' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-03 14:52:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(20,27): error TS6133: 'userBody' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(20,27): error TS6133: 'userBody' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-03 14:52:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(20,27): error TS6133: 'userBody' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(20,27): error TS6133: 'userBody' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-03 15:03:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(36,71): error TS2554: Expected 1 arguments, but got 2.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(36,71): error TS2554: Expected 1 arguments, but got 2.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9127853239695549.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
