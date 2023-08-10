@@ -1,0 +1,326 @@
+2023-08-10 15:12:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\config\base.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:15:17 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\config\base.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:16:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(16,62): error TS2345: Argument of type '{ id: string | number; }' is not assignable to parameter of type 'FindOneOptions<UserEntity>'.
+  Object literal may only specify known properties, and 'id' does not exist in type 'FindOneOptions<UserEntity>'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(16,62): error TS2345: Argument of type '{ id: string | number; }' is not assignable to parameter of type 'FindOneOptions<UserEntity>'.
+  Object literal may only specify known properties, and 'id' does not exist in type 'FindOneOptions<UserEntity>'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:16:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(16,62): error TS2345: Argument of type '{ id: string | number; }' is not assignable to parameter of type 'FindOneOptions<UserEntity>'.
+  Object literal may only specify known properties, and 'id' does not exist in type 'FindOneOptions<UserEntity>'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(16,62): error TS2345: Argument of type '{ id: string | number; }' is not assignable to parameter of type 'FindOneOptions<UserEntity>'.
+  Object literal may only specify known properties, and 'id' does not exist in type 'FindOneOptions<UserEntity>'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:17:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(16,62): error TS2345: Argument of type '{ id: string; }' is not assignable to parameter of type 'FindOneOptions<UserEntity>'.
+  Object literal may only specify known properties, and 'id' does not exist in type 'FindOneOptions<UserEntity>'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(16,62): error TS2345: Argument of type '{ id: string; }' is not assignable to parameter of type 'FindOneOptions<UserEntity>'.
+  Object literal may only specify known properties, and 'id' does not exist in type 'FindOneOptions<UserEntity>'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:17:55 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\config\base.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:18:31 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\config\base.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:18:53 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(14,48): error TS2663: Cannot find name 'getEntity'. Did you mean the instance member 'this.getEntity'?
+
+Error: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(14,48): error TS2663: Cannot find name 'getEntity'. Did you mean the instance member 'this.getEntity'?
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\config\base.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:19:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\config\base.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:21:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(6,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\config\base.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:25:25 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(7,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/config/base.service.ts(7,23): error TS6138: Property 'getEntity' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\config\base.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-30515791669113956.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:30:23 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(11,31): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/user.service.ts(21,16): error TS7030: Not all code paths return a value.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(11,31): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/user.service.ts(21,16): error TS7030: Not all code paths return a value.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:31:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(11,31): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/user.service.ts(21,42): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/user.service.ts(28,7): error TS2322: Type 'UserEntity | null' is not assignable to type 'UserEntity'.
+  Type 'null' is not assignable to type 'UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(11,31): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/user.service.ts(21,42): error TS2366: Function lacks ending return statement and return type does not include 'undefined'.
+src/user/user.service.ts(28,7): error TS2322: Type 'UserEntity | null' is not assignable to type 'UserEntity'.
+  Type 'null' is not assignable to type 'UserEntity'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:33:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(23,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'UserEntity | undefined'.
+  Type 'null' is not assignable to type 'UserEntity | undefined'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(23,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'UserEntity | undefined'.
+  Type 'null' is not assignable to type 'UserEntity | undefined'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:42:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(38,65): error TS2345: Argument of type 'UserEntity | null' is not assignable to parameter of type 'string | number | FindOptionsWhere<UserEntity> | Date | ObjectId | string[] | number[] | Date[] | ObjectId[]'.
+  Type 'null' is not assignable to type 'string | number | FindOptionsWhere<UserEntity> | Date | ObjectId | string[] | number[] | Date[] | ObjectId[]'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(38,65): error TS2345: Argument of type 'UserEntity | null' is not assignable to parameter of type 'string | number | FindOptionsWhere<UserEntity> | Date | ObjectId | string[] | number[] | Date[] | ObjectId[]'.
+  Type 'null' is not assignable to type 'string | number | FindOptionsWhere<UserEntity> | Date | ObjectId | string[] | number[] | Date[] | ObjectId[]'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:44:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(39,5): error TS2740: Type 'UpdateResult' is missing the following properties from type 'UserEntity': id, name, lastName, email, and 4 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(39,5): error TS2740: Type 'UpdateResult' is missing the following properties from type 'UserEntity': id, name, lastName, email, and 4 more.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:44:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(38,5): error TS2740: Type 'UpdateResult' is missing the following properties from type 'UserEntity': id, name, lastName, email, and 4 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(38,5): error TS2740: Type 'UpdateResult' is missing the following properties from type 'UserEntity': id, name, lastName, email, and 4 more.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-42260258293113817.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-10 15:57:30 error: uncaughtException: ER_NO_DEFAULT_FOR_FIELD: Field 'last_name' doesn't have a default value
+QueryFailedError: ER_NO_DEFAULT_FOR_FIELD: Field 'last_name' doesn't have a default value
+    at Query.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\driver\mysql\MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:88:28)
+2023-08-10 15:58:24 error: uncaughtException: ER_NO_DEFAULT_FOR_FIELD: Field 'update_at' doesn't have a default value
+QueryFailedError: ER_NO_DEFAULT_FOR_FIELD: Field 'update_at' doesn't have a default value
+    at Query.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\driver\mysql\MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:88:28)
+2023-08-10 16:33:56 error: uncaughtException: ER_NO_DEFAULT_FOR_FIELD: Field 'name' doesn't have a default value
+QueryFailedError: ER_NO_DEFAULT_FOR_FIELD: Field 'name' doesn't have a default value
+    at Query.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\driver\mysql\MysqlQueryRunner.ts:222:33)
+    at Query.<anonymous> (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:88:28)
