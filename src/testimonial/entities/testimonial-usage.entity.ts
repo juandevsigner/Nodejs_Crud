@@ -1,9 +1,9 @@
 import {
-  PrimaryGeneratedColumn,
   Column,
   Entity,
-  ManyToOne,
   JoinColumn,
+  ManyToOne,
+  PrimaryGeneratedColumn,
   CreateDateColumn,
   UpdateDateColumn,
 } from 'typeorm';
@@ -25,7 +25,7 @@ export class TestimonialUsageEntity {
   @UpdateDateColumn()
   updateAt!: Date;
 
-  @ManyToOne(() => TestimonialEntity, (testimonial) => testimonial.testimonialsUsages)
+  @ManyToOne(() => TestimonialEntity, (testimonial) => testimonial.testimonialUsages)
   @JoinColumn({ name: 'testimonial_id' })
   testimonial!: TestimonialEntity;
 }

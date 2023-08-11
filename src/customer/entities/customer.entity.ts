@@ -1,15 +1,15 @@
 import {
-  PrimaryGeneratedColumn,
   Column,
   Entity,
+  PrimaryGeneratedColumn,
   OneToOne,
   JoinColumn,
   OneToMany,
   CreateDateColumn,
   UpdateDateColumn,
 } from 'typeorm';
-import { UserEntity } from '../../user/entities/user.entity';
 import { TestimonialEntity } from '../../testimonial/entities/testimonial.entity';
+import { UserEntity } from '../../user/entities/user.entity';
 
 @Entity({ name: 'customer' })
 export class CustomerEntity {
@@ -32,5 +32,5 @@ export class CustomerEntity {
   user!: UserEntity;
 
   @OneToMany(() => TestimonialEntity, (testimonial) => testimonial.customer)
-  testimonial!: TestimonialEntity;
+  testimonials!: TestimonialEntity[];
 }

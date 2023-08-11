@@ -23,12 +23,12 @@ export class UserEntity {
   gender!: string;
 
   @Column()
-  @UpdateDateColumn()
-  updateAt!: Date;
-
-  @Column()
   @CreateDateColumn()
   createdAt!: Date;
+
+  @Column()
+  @UpdateDateColumn()
+  updateAt!: Date;
 
   @OneToOne(() => CustomerEntity, (customer) => customer.user)
   customer!: CustomerEntity;

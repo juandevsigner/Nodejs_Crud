@@ -1,15 +1,19 @@
 import express from 'express';
-import displayRoutes from 'express-routemap';
-import cors from 'cors';
 import cookieParser from 'cookie-parser';
-import hpp from 'hpp';
+import cors from 'cors';
+import displayRoutes from 'express-routemap';
 import helmet from 'helmet';
+import hpp from 'hpp';
+import morgan from 'morgan';
 
-import { API_VERSION, ConfigServer, NODE_ENV, PORT } from './config/config';
+import { API_VERSION, ConfigServer, LOG_FORMAT, NODE_ENV, PORT } from './config/config';
 import { Routes } from './interfaces/route.interface';
-import { logger } from './utils/logger';
-import { corsConfig } from './config/cors.config';
+
+import { logger, stream } from './utils/logger';
+import corsConfig from './config/cors.config';
+
 import { DataSource } from 'typeorm';
+import { join } from 'path';
 
 class App extends ConfigServer {
   public app: express.Application;
@@ -20,16 +24,19 @@ class App extends ConfigServer {
   constructor(routes: Routes[]) {
     super();
     this.app = express();
-    this.port = Number(PORT) || 5000;
     this.env = NODE_ENV || 'development';
+    this.port = Number(PORT) || 5000;
 
     this.connectToDatabase();
     this.initializeMiddlewares();
-    this.initializedRoutes(routes);
+    this.initializeRoutes(routes);
     this.initializeSwagger();
-    this.initializeErrorHanding();
+    this.initializeErrorHandling();
   }
 
+  /**
+   * getServer
+   */
   public getServer() {
     return this.app;
   }
@@ -40,18 +47,17 @@ class App extends ConfigServer {
     });
   }
 
-  public initializedRoutes(routes: Routes[]) {
-    routes.forEach((route) => {
-      this.app.use(`/api/${API_VERSION}`, route.router);
-    });
-  }
-
+  /**
+   * connectToDatabase
+   */
   private async connectToDatabase(): Promise<DataSource | void> {
+    // TODO: Inicializar la conexion
+    console.log('DIR de las entities', join(__dirname, '../**/*.entity{.ts,.js}'));
     return this.initConnect
       .then(() => {
-        logger.info(`================================`);
-        logger.info(`==== DB Connection success!! ===`);
-        logger.info(`================================`);
+        logger.info(`=================================`);
+        logger.info(`==== DB Connection success!! ====`);
+        logger.info(`=================================`);
       })
       .catch((err) => {
         console.error(err.message);
@@ -59,6 +65,7 @@ class App extends ConfigServer {
   }
 
   private initializeMiddlewares() {
+    this.app.use(morgan(LOG_FORMAT ?? '../logs', { stream }));
     this.app.use(cors(corsConfig));
     this.app.use(hpp());
     this.app.use(helmet());
@@ -67,20 +74,35 @@ class App extends ConfigServer {
     this.app.use(cookieParser());
   }
 
-  public listen() {
-    this.app.listen(this.port, () => {
-      displayRoutes(this.app);
-      logger.info(`================================`);
-      logger.info(`======= ENV: ${this.env} =======`);
-      logger.info(`=App listening on the port ${this.port}=`);
-      logger.info(`================================`);
+  /**
+   * initializeRoutes
+   */
+  public initializeRoutes(routes: Routes[]) {
+    routes.forEach((route) => {
+      this.app.use(`/api/${API_VERSION}`, route.router);
     });
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-empty-function
-  private initializeErrorHanding() {}
-  // eslint-disable-next-line @typescript-eslint/no-empty-function
-  private initializeSwagger() {}
+  /**
+   * listen
+   */
+  public listen() {
+    this.app.listen(this.port, () => {
+      displayRoutes(this.app);
+      logger.info(`=================================`);
+      logger.info(`======= ENV: ${this.env} =======`);
+      logger.info(`🚀 App listening on the port ${this.port}`);
+      logger.info(`=================================`);
+    });
+  }
+
+  private initializeSwagger() {
+    // TODO: init swagger
+  }
+
+  private initializeErrorHandling() {
+    // TODO: Configure error handleing
+  }
 }
 
 export default App;

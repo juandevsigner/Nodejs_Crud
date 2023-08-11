@@ -1,4 +1,4 @@
-import { IsOptional, IsNotEmpty, IsDate } from 'class-validator';
+import { IsDate, IsNotEmpty, IsOptional } from 'class-validator';
 
 export class UserDTO {
   @IsOptional()
@@ -21,9 +21,9 @@ export class UserDTO {
 
   @IsDate()
   @IsOptional()
-  updateAt!: Date;
+  createdAt!: Date;
 
   @IsDate()
   @IsOptional()
-  createdAt!: Date;
+  updateAt!: Date;
 }

@@ -1,10 +1,11 @@
-import { DataSource, DataSourceOptions } from 'typeorm';
-import { join } from 'path';
-import { SnakeNamingStrategy } from 'typeorm-naming-strategies';
 import { config } from 'dotenv';
+import { join } from 'path';
+import { DataSource, DataSourceOptions } from 'typeorm';
+import { SnakeNamingStrategy } from 'typeorm-naming-strategies';
+
 config({ path: `.env.${process.env.NODE_ENV || 'development'}.local` });
 
-export const { DB_HOST, DB_PORT, DB_NAME, DB_PASSWORD, DB_USER } = process.env;
+export const { PORT, DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD } = process.env;
 
 const configDBConnection: DataSourceOptions = {
   type: 'mysql',
@@ -13,8 +14,8 @@ const configDBConnection: DataSourceOptions = {
   username: DB_USER,
   password: DB_PASSWORD,
   database: DB_NAME,
-  synchronize: true,
-  migrationsRun: false,
+  synchronize: false,
+  migrationsRun: true,
   logging: false,
   entities: [join(__dirname, '../**/*.entity{.ts,.js}')],
   migrations: [join(__dirname, '../**/*.migration{.ts,.js}')],

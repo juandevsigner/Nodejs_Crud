@@ -1,10 +1,11 @@
-import { DeleteResult, UpdateResult } from 'typeorm';
 import { BaseService } from '../config/base.service';
 import { CustomerEntity } from './entities/customer.entity';
+import { DeleteResult, UpdateResult } from 'typeorm';
 import { CustomerDTO } from './dto/customer.dto';
 
-class CustomerService extends BaseService<CustomerEntity> {
+export class CustomerService extends BaseService<CustomerEntity> {
   constructor() {
+    console.log('AQUI');
     super(CustomerEntity);
   }
 
@@ -12,22 +13,19 @@ class CustomerService extends BaseService<CustomerEntity> {
     return (await this.useRepository).find();
   }
 
-  async getCustomersById(id: string): Promise<CustomerEntity | null> {
+  async getCustomerById(id: string): Promise<CustomerEntity | null> {
     return (await this.useRepository).findOneBy({ id });
   }
 
-  async createCustomer(customer: CustomerDTO): Promise<CustomerEntity> {
-    // const newCustomer = await (await this.useRepository).create(customer);
+  async createCustomer(customer: CustomerDTO): Promise<CustomerEntity | null> {
     return (await this.useRepository).save(customer);
   }
 
-  async deleteCustomersById(id: string): Promise<DeleteResult | null> {
-    return (await this.useRepository).delete({ id });
-  }
-
-  async updateCustomers(customerBody: CustomerDTO, id: string): Promise<UpdateResult | null> {
+  async updateCustomer(id: string, customerBody: CustomerDTO): Promise<UpdateResult | null> {
     return (await this.useRepository).update(id, customerBody);
   }
-}
 
-export default CustomerService;
+  async deleteCustomerById(id: string): Promise<DeleteResult | null> {
+    return (await this.useRepository).delete({ id });
+  }
+}

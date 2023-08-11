@@ -1,17 +1,20 @@
-import { Router, Request, Response } from 'express';
 import { Routes } from '../interfaces/route.interface';
+import { Router, Request, Response } from 'express';
 
 class BaseRoute implements Routes {
-  public path?: '/alive';
+  public path = '/alive';
   public router = Router();
 
   constructor() {
-    this.initBaseRoute();
+    this.initBaseRoutes();
   }
 
-  public initBaseRoute() {
-    this.router.get(`/alive`, (_req: Request, res: Response) => {
-      res.status(200).json({ ok: true, message: 'HOLI' });
+  /**
+   * initBaseRoutes
+   */
+  public initBaseRoutes() {
+    this.router.get(`${this.path}`, (_req: Request, res: Response) => {
+      res.status(200).json({ ok: true, message: `I AM API AND I AM ALIVE` });
     });
   }
 }

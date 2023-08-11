@@ -1,35 +1,35 @@
 {
-    "keep": {
-        "days": false,
-        "amount": 30
+  "keep": {
+    "days": false,
+    "amount": 30
+  },
+  "auditLog": "C:\\Users\\Usuario\\Desktop\\node backend\\src\\logs\\debug\\.3d6cf1b1d1fd924217d8823b19b9d8d0ba2602e8-audit.json",
+  "files": [
+    {
+      "date": 1690563423569,
+      "name": "C:\\Users\\Usuario\\Desktop\\node backend\\src\\logs\\debug\\2023-07-28.log",
+      "hash": "697b6d576021ffae0853e225a1c594529aa884d7a6ce7cafaa86af3feb60ce7d"
     },
-    "auditLog": "C:\\Users\\Usuario\\Desktop\\node backend\\src\\logs\\debug\\.3d6cf1b1d1fd924217d8823b19b9d8d0ba2602e8-audit.json",
-    "files": [
-        {
-            "date": 1690563423569,
-            "name": "C:\\Users\\Usuario\\Desktop\\node backend\\src\\logs\\debug\\2023-07-28.log",
-            "hash": "697b6d576021ffae0853e225a1c594529aa884d7a6ce7cafaa86af3feb60ce7d"
-        },
-        {
-            "date": 1691070862458,
-            "name": "C:\\Users\\Usuario\\Desktop\\node backend\\src\\logs\\debug\\2023-08-03.log",
-            "hash": "7cf34d86e790898a7d4c476399199fbe25e5a7406fd94b7ababa0fa15a769099"
-        },
-        {
-            "date": 1691154796338,
-            "name": "C:\\Users\\Usuario\\Desktop\\node backend\\src\\logs\\debug\\2023-08-04.log",
-            "hash": "d830505d98546fc881a6c8f122e4936cb3224a6770426e056fabdec2c12d9717"
-        },
-        {
-            "date": 1691696150262,
-            "name": "C:\\Users\\Usuario\\Desktop\\node backend\\src\\logs\\debug\\2023-08-10.log",
-            "hash": "e3b1029b737a6630132026fe25e0c6ef8c5da10b4bb7cff8db12b206aa487a3d"
-        },
-        {
-            "date": 1691760952909,
-            "name": "C:\\Users\\Usuario\\Desktop\\node backend\\src\\logs\\debug\\2023-08-11.log",
-            "hash": "406c6485b9d31cecd96e73946634a072046e8598a212bf537c1a8aef624d7fe8"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1691070862458,
+      "name": "C:\\Users\\Usuario\\Desktop\\node backend\\src\\logs\\debug\\2023-08-03.log",
+      "hash": "7cf34d86e790898a7d4c476399199fbe25e5a7406fd94b7ababa0fa15a769099"
+    },
+    {
+      "date": 1691154796338,
+      "name": "C:\\Users\\Usuario\\Desktop\\node backend\\src\\logs\\debug\\2023-08-04.log",
+      "hash": "d830505d98546fc881a6c8f122e4936cb3224a6770426e056fabdec2c12d9717"
+    },
+    {
+      "date": 1691696150262,
+      "name": "C:\\Users\\Usuario\\Desktop\\node backend\\src\\logs\\debug\\2023-08-10.log",
+      "hash": "e3b1029b737a6630132026fe25e0c6ef8c5da10b4bb7cff8db12b206aa487a3d"
+    },
+    {
+      "date": 1691760952909,
+      "name": "C:\\Users\\Usuario\\Desktop\\node backend\\src\\logs\\debug\\2023-08-11.log",
+      "hash": "406c6485b9d31cecd96e73946634a072046e8598a212bf537c1a8aef624d7fe8"
+    }
+  ],
+  "hashType": "sha256"
 }

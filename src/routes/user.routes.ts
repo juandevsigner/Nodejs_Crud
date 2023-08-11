@@ -1,26 +1,30 @@
 import { Router } from 'express';
 import { Routes } from '../interfaces/route.interface';
-import CustomerController from '../customer/customer.controller';
+import UserController from '../user/user.controller';
 
-class UserRoutes implements Routes {
-  public path? = '/user';
+class UserRoute implements Routes {
+  public path = '/users';
   public router = Router();
-  private userController = new CustomerController();
+  public userController = new UserController();
 
   constructor() {
-    this.initUserRoutes();
+    this.initUserRoute();
   }
 
-  public initUserRoutes(): void {
-    this.router.get(`${this.path}`, this.userController.getAllCustomers);
+  /**
+   * initUserRoute
+   */
+  public initUserRoute() {
+    this.router.get(`${this.path}`, (req, res) => this.userController.getAllUsers(req, res));
 
-    this.router.get(`${this.path}/:id`, this.userController.getCustomersById);
+    this.router.get(`${this.path}/:id`, (req, res) => this.userController.getUserById(req, res));
 
-    this.router.post(`${this.path}`, this.userController.createCustomer);
+    this.router.post(`${this.path}`, (req, res) => this.userController.createUser(req, res));
 
-    this.router.put(`${this.path}/:id`, this.userController.updateCustomers);
+    this.router.put(`${this.path}/:id`, (req, res) => this.userController.updateUserById(req, res));
 
-    this.router.delete(`${this.path}/:id`, this.userController.deleteCustomersById);
+    this.router.delete(`${this.path}/:id`, (req, res) => this.userController.deleteUserById(req, res));
   }
 }
-export default UserRoutes;
+
+export default UserRoute;

@@ -1,8 +1,8 @@
 import App from './app';
 import BaseRoute from './routes/base.routes';
-import CustomerRoutes from './routes/customer.routes';
-import UserRoutes from './routes/user.routes';
+import CustomerRoute from './routes/customer.routes';
+import UserRoute from './routes/user.routes';
 
-const app = new App([new BaseRoute(), new UserRoutes(), new CustomerRoutes()]);
+const app = new App([new BaseRoute(), new UserRoute(), new CustomerRoute()]);
 
 app.listen();

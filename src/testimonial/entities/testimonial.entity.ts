@@ -1,6 +1,15 @@
-import { Column, Entity, JoinColumn, ManyToOne, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
-import { CustomerEntity } from '../../customer/entities/customer.entity';
+import {
+  Column,
+  Entity,
+  JoinColumn,
+  ManyToOne,
+  OneToMany,
+  PrimaryGeneratedColumn,
+  CreateDateColumn,
+  UpdateDateColumn,
+} from 'typeorm';
 import { TestimonialUsageEntity } from './testimonial-usage.entity';
+import { CustomerEntity } from '../../customer/entities/customer.entity';
 
 @Entity({ name: 'testimonial' })
 export class TestimonialEntity {
@@ -32,15 +41,17 @@ export class TestimonialEntity {
   isLogoUsageOnSocialMediaGranted!: number;
 
   @Column()
-  updateAt!: Date;
-
-  @Column()
+  @CreateDateColumn()
   createdAt!: Date;
 
-  @ManyToOne(() => CustomerEntity, (customer) => customer.testimonial)
+  @Column()
+  @UpdateDateColumn()
+  updateAt!: Date;
+
+  @ManyToOne(() => CustomerEntity, (customer) => customer.testimonials)
   @JoinColumn({ name: 'customer_id' })
   customer!: CustomerEntity;
 
-  @OneToMany(() => TestimonialUsageEntity, (testimonialUsage) => testimonialUsage.testimonial)
-  testimonialsUsages!: TestimonialUsageEntity[];
+  @OneToMany(() => TestimonialUsageEntity, (testiUsage) => testiUsage.testimonial)
+  testimonialUsages!: TestimonialUsageEntity[];
 }

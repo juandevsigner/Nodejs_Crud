@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/logs/error/.02503c3d97218086d4fac36f7b8674f0db826d0a-audit.json",
+    "files": [
+        {
+            "date": 1674087979399,
+            "name": "/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/logs/error/2023-01-19.log",
+            "hash": "6328e24d18782d122d86af6fb539ddfaf4fe24c94ca9df3e728683b37cd054e7"
+        },
+        {
+            "date": 1674514930538,
+            "name": "/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/logs/error/2023-01-24.log",
+            "hash": "61e6cd221afc882c2608e5be95e5c553618d3dd6b9d52617b4eb697752a53034"
+        },
+        {
+            "date": 1675805447525,
+            "name": "/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/logs/error/2023-02-07.log",
+            "hash": "75623765d5b029fc73027e48c71280b1f63e526634530b8e2d0efdf1b17ea5ac"
+        },
+        {
+            "date": 1678635610209,
+            "name": "/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/logs/error/2023-03-12.log",
+            "hash": "5771983018fe0a823862c0c3c063aa68369a70392a9bf4fcd17eef419358dc0e"
+        },
+        {
+            "date": 1679353383858,
+            "name": "/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/logs/error/2023-03-21.log",
+            "hash": "90ccda801a01a2ed5117d1c47871571c5d07f0fc7472569994395a359efb2968"
+        },
+        {
+            "date": 1679529791442,
+            "name": "/home/rabindranath/Documents/Backend/yt-node-api-ts-oop/src/logs/error/2023-03-23.log",
+            "hash": "f580156c092ffae1d515ea1471436e0e7f9d29757936baaa320980551cf3b94c"
+        }
+    ],
+    "hashType": "sha256"
+}
