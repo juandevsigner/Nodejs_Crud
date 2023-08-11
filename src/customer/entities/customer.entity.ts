@@ -1,4 +1,13 @@
-import { PrimaryGeneratedColumn, Column, Entity, OneToOne, JoinColumn, OneToMany } from 'typeorm';
+import {
+  PrimaryGeneratedColumn,
+  Column,
+  Entity,
+  OneToOne,
+  JoinColumn,
+  OneToMany,
+  CreateDateColumn,
+  UpdateDateColumn,
+} from 'typeorm';
 import { UserEntity } from '../../user/entities/user.entity';
 import { TestimonialEntity } from '../../testimonial/entities/testimonial.entity';
 
@@ -11,9 +20,11 @@ export class CustomerEntity {
   name!: string;
 
   @Column()
+  @CreateDateColumn()
   createdAt!: Date;
 
   @Column()
+  @UpdateDateColumn()
   updateAt!: Date;
 
   @OneToOne(() => UserEntity, (user) => user.customer)

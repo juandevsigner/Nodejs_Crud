@@ -1,0 +1,108 @@
+2023-08-11 08:39:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(31,72): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+src/user/user.service.ts(31,75): error TS2488: Type 'UserDTO' must have a '[Symbol.iterator]()' method that returns an iterator.
+src/user/user.service.ts(32,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, lastName, email, and 5 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(31,72): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+src/user/user.service.ts(31,75): error TS2488: Type 'UserDTO' must have a '[Symbol.iterator]()' method that returns an iterator.
+src/user/user.service.ts(32,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, lastName, email, and 5 more.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-5705180773763165.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-5705180773763165.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-5705180773763165.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-11 08:39:15 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(31,61): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+src/user/user.service.ts(31,64): error TS2488: Type 'UserDTO' must have a '[Symbol.iterator]()' method that returns an iterator.
+src/user/user.service.ts(32,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, lastName, email, and 5 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(31,61): error TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.
+src/user/user.service.ts(31,64): error TS2488: Type 'UserDTO' must have a '[Symbol.iterator]()' method that returns an iterator.
+src/user/user.service.ts(32,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, lastName, email, and 5 more.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-5705180773763165.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-5705180773763165.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-5705180773763165.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-11 08:40:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(31,76): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(entityLikeArray: DeepPartial<UserEntity>[]): UserEntity[]', gave the following error.
+    Argument of type '{ password: Promise<string>; id: string; name: string; lastName: string; email: string; gender: string; updateAt: Date; createdAt: Date; }' is not assignable to parameter of type 'DeepPartial<UserEntity>[]'.
+      Object literal may only specify known properties, and 'password' does not exist in type 'DeepPartial<UserEntity>[]'.
+  Overload 2 of 3, '(entityLike: DeepPartial<UserEntity>): UserEntity', gave the following error.
+    Type 'Promise<string>' is not assignable to type 'string'.
+src/user/user.service.ts(32,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, lastName, email, and 5 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(31,76): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(entityLikeArray: DeepPartial<UserEntity>[]): UserEntity[]', gave the following error.
+    Argument of type '{ password: Promise<string>; id: string; name: string; lastName: string; email: string; gender: string; updateAt: Date; createdAt: Date; }' is not assignable to parameter of type 'DeepPartial<UserEntity>[]'.
+      Object literal may only specify known properties, and 'password' does not exist in type 'DeepPartial<UserEntity>[]'.
+  Overload 2 of 3, '(entityLike: DeepPartial<UserEntity>): UserEntity', gave the following error.
+    Type 'Promise<string>' is not assignable to type 'string'.
+src/user/user.service.ts(32,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, lastName, email, and 5 more.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-5705180773763165.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-5705180773763165.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-5705180773763165.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-11 08:40:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(31,76): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(entityLikeArray: DeepPartial<UserEntity>[]): UserEntity[]', gave the following error.
+    Argument of type '{ password: Promise<string>; id: string; name: string; lastName: string; email: string; gender: string; updateAt: Date; createdAt: Date; }' is not assignable to parameter of type 'DeepPartial<UserEntity>[]'.
+      Object literal may only specify known properties, and 'password' does not exist in type 'DeepPartial<UserEntity>[]'.
+  Overload 2 of 3, '(entityLike: DeepPartial<UserEntity>): UserEntity', gave the following error.
+    Type 'Promise<string>' is not assignable to type 'string'.
+src/user/user.service.ts(32,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, lastName, email, and 5 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(31,76): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(entityLikeArray: DeepPartial<UserEntity>[]): UserEntity[]', gave the following error.
+    Argument of type '{ password: Promise<string>; id: string; name: string; lastName: string; email: string; gender: string; updateAt: Date; createdAt: Date; }' is not assignable to parameter of type 'DeepPartial<UserEntity>[]'.
+      Object literal may only specify known properties, and 'password' does not exist in type 'DeepPartial<UserEntity>[]'.
+  Overload 2 of 3, '(entityLike: DeepPartial<UserEntity>): UserEntity', gave the following error.
+    Type 'Promise<string>' is not assignable to type 'string'.
+src/user/user.service.ts(32,5): error TS2740: Type 'UserEntity[]' is missing the following properties from type 'UserEntity': id, name, lastName, email, and 5 more.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-5705180773763165.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-5705180773763165.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-5705180773763165.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-11 09:33:38 error: uncaughtException: Cannot read properties of undefined (reading 'customerService')
+TypeError: Cannot read properties of undefined (reading 'customerService')
+    at getAllCustomers (C:\Users\Usuario\Desktop\node backend\src\customer\customer.controller.ts:8:34)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\node backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\node backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\node backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\node backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\node backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Usuario\Desktop\node backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Usuario\Desktop\node backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Usuario\Desktop\node backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Usuario\Desktop\node backend\node_modules\express\lib\router\index.js:47:12)

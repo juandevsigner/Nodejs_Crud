@@ -45,7 +45,8 @@ class UserController {
     const userDeleted = await this.userService.deleteUserByID(userId);
     res.status(200).json({
       ok: true,
-      message: `User Id:${userDeleted} was removed`,
+      user: userDeleted,
+      message: `User was removed`,
     });
   };
 }
