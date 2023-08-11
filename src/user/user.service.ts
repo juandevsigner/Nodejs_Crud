@@ -27,7 +27,6 @@ class UserService extends BaseService<UserEntity> {
     logger.info(`${UserService.name} - getUserById with id ${uId}`);
     const user = await (await this.useRepository).findOneBy({ id: uId });
     if (!user) {
-      // TODO agregar o retonar error
       console.log('Error no se encontro el usuario');
     }
 
@@ -37,8 +36,7 @@ class UserService extends BaseService<UserEntity> {
   /**
    * createUser
    */
-  public async createUser(userBody: UserDTO): Promise<UserEntity | null> {
-    console.log('🚀 ~ file: user.service.ts:35 ~ UserService ~ createUser ~ userBody', userBody);
+  public async createUser(userBody: UserDTO): Promise<UserEntity> {
     logger.info(`${UserService.name} - createUser`);
     const { password } = userBody;
     const hashedPsw = await createHashValue(password);
@@ -49,12 +47,10 @@ class UserService extends BaseService<UserEntity> {
   /**
    * updateUserById
    */
-  public async updateUserById(id: string, updateUserBody: UserDTO): Promise<UpdateResult | null> {
-    console.log('🚀 ~ file: user.service.ts:48 ~ UserService ~ updateUserById ~ updateUserBody', updateUserBody);
+  public async updateUserById(id: string, updateUserBody: UserDTO): Promise<UpdateResult> {
     logger.info(`${UserService.name} - updateUserById with id ${id}`);
     const findUser = await (await this.useRepository).findOneBy({ id });
     if (!findUser) {
-      // TODO agregar o retonar error
       console.log('el usuario no EXISTE!!!');
     }
     return await (await this.useRepository).update(id, { ...updateUserBody });
@@ -63,11 +59,10 @@ class UserService extends BaseService<UserEntity> {
   /**
    * deleteUserById
    */
-  public async deleteUserById(id: string): Promise<DeleteResult | null> {
+  public async deleteUserById(id: string): Promise<DeleteResult> {
     logger.info(`${UserService.name} - deleteUserById with id ${id}`);
     const findUser = await (await this.useRepository).findOneBy({ id });
     if (!findUser) {
-      // TODO agregar o retonar error
       console.log('el usuario no EXISTE!!!');
     }
 

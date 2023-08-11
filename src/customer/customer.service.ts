@@ -5,7 +5,6 @@ import { CustomerDTO } from './dto/customer.dto';
 
 export class CustomerService extends BaseService<CustomerEntity> {
   constructor() {
-    console.log('AQUI');
     super(CustomerEntity);
   }
 

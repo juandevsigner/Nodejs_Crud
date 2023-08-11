@@ -1,0 +1,154 @@
+2023-08-11 10:55:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(9,22): error TS6138: Property 'httpResponse' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(9,22): error TS6138: Property 'httpResponse' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-11 11:09:04 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(34,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'UserEntity'.
+  Type 'null' is not assignable to type 'UserEntity'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(34,5): error TS2322: Type 'UserEntity | null' is not assignable to type 'UserEntity'.
+  Type 'null' is not assignable to type 'UserEntity'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-11 11:10:28 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(53,13): error TS2322: Type 'UpdateResult | null' is not assignable to type 'UpdateResult'.
+  Type 'null' is not assignable to type 'UpdateResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(53,13): error TS2322: Type 'UpdateResult | null' is not assignable to type 'UpdateResult'.
+  Type 'null' is not assignable to type 'UpdateResult'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-11 11:12:05 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(53,13): error TS2322: Type 'UpdateResult | null' is not assignable to type 'UpdateResult'.
+  Type 'null' is not assignable to type 'UpdateResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(53,13): error TS2322: Type 'UpdateResult | null' is not assignable to type 'UpdateResult'.
+  Type 'null' is not assignable to type 'UpdateResult'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-11 11:12:51 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(53,13): error TS2322: Type 'UpdateResult | null' is not assignable to type 'UpdateResult'.
+  Type 'null' is not assignable to type 'UpdateResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(53,13): error TS2322: Type 'UpdateResult | null' is not assignable to type 'UpdateResult'.
+  Type 'null' is not assignable to type 'UpdateResult'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-11 11:14:37 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(53,13): error TS2322: Type 'UpdateResult | null' is not assignable to type 'UpdateResult'.
+  Type 'null' is not assignable to type 'UpdateResult'.
+src/user/user.controller.ts(67,13): error TS2322: Type 'DeleteResult | null' is not assignable to type 'DeleteResult'.
+  Type 'null' is not assignable to type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(53,13): error TS2322: Type 'UpdateResult | null' is not assignable to type 'UpdateResult'.
+  Type 'null' is not assignable to type 'UpdateResult'.
+src/user/user.controller.ts(67,13): error TS2322: Type 'DeleteResult | null' is not assignable to type 'DeleteResult'.
+  Type 'null' is not assignable to type 'DeleteResult'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-11 11:14:56 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(53,13): error TS2322: Type 'UpdateResult | null' is not assignable to type 'UpdateResult'.
+  Type 'null' is not assignable to type 'UpdateResult'.
+src/user/user.controller.ts(67,13): error TS2322: Type 'DeleteResult | null' is not assignable to type 'DeleteResult'.
+  Type 'null' is not assignable to type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(53,13): error TS2322: Type 'UpdateResult | null' is not assignable to type 'UpdateResult'.
+  Type 'null' is not assignable to type 'UpdateResult'.
+src/user/user.controller.ts(67,13): error TS2322: Type 'DeleteResult | null' is not assignable to type 'DeleteResult'.
+  Type 'null' is not assignable to type 'DeleteResult'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-08-11 11:15:33 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(53,13): error TS2322: Type 'UpdateResult | null' is not assignable to type 'UpdateResult'.
+  Type 'null' is not assignable to type 'UpdateResult'.
+src/user/user.controller.ts(67,13): error TS2322: Type 'DeleteResult | null' is not assignable to type 'DeleteResult'.
+  Type 'null' is not assignable to type 'DeleteResult'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.controller.ts(53,13): error TS2322: Type 'UpdateResult | null' is not assignable to type 'UpdateResult'.
+  Type 'null' is not assignable to type 'UpdateResult'.
+src/user/user.controller.ts(67,13): error TS2322: Type 'DeleteResult | null' is not assignable to type 'DeleteResult'.
+  Type 'null' is not assignable to type 'DeleteResult'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.controller.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-8939421641379324.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
