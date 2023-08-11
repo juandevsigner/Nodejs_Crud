@@ -49,7 +49,7 @@ class UserService extends BaseService<UserEntity> {
   /**
    * updateUserById
    */
-  public async updateUserById(id: string, updateUserBody: UserDTO): Promise<UpdateResult> {
+  public async updateUserById(id: string, updateUserBody: UserDTO): Promise<UpdateResult | null> {
     console.log('🚀 ~ file: user.service.ts:48 ~ UserService ~ updateUserById ~ updateUserBody', updateUserBody);
     logger.info(`${UserService.name} - updateUserById with id ${id}`);
     const findUser = await (await this.useRepository).findOneBy({ id });
@@ -63,7 +63,7 @@ class UserService extends BaseService<UserEntity> {
   /**
    * deleteUserById
    */
-  public async deleteUserById(id: string): Promise<DeleteResult> {
+  public async deleteUserById(id: string): Promise<DeleteResult | null> {
     logger.info(`${UserService.name} - deleteUserById with id ${id}`);
     const findUser = await (await this.useRepository).findOneBy({ id });
     if (!findUser) {
