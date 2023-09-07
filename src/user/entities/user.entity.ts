@@ -1,5 +1,6 @@
 import { Column, CreateDateColumn, Entity, OneToOne, PrimaryGeneratedColumn, Unique, UpdateDateColumn } from 'typeorm';
 import { CustomerEntity } from '../../customer/entities/customer.entity';
+import { RoleType } from '../types/user.type';
 
 @Entity({ name: 'user' })
 export class UserEntity {
@@ -11,6 +12,9 @@ export class UserEntity {
 
   @Column()
   lastName!: string;
+
+  @Column({ type: 'enum', enum: RoleType, nullable: false })
+  role!: RoleType;
 
   @Column()
   @Unique(['email'])
