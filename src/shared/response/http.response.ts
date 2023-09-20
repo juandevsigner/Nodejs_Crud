@@ -34,6 +34,14 @@ export class HttpResponse {
     });
   }
 
+  BadRequest(res: Response, data: any) {
+    return res.status(StatusCodes.BAD_REQUEST).json({
+      status: StatusCodes.BAD_REQUEST,
+      statusMessage: ReasonPhrases.BAD_REQUEST,
+      data,
+    });
+  }
+
   Error(res: Response, data: any) {
     return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
       status: StatusCodes.INTERNAL_SERVER_ERROR,

@@ -29,3 +29,13 @@
 2023-09-07 15:47:06 info: UserController - getAllUsers
 2023-09-07 15:47:06 info: UserService - getAllUsers
 2023-09-07 15:47:06 info: ../logs
+2023-09-07 16:29:04 info: =================================
+2023-09-07 16:29:04 info: ======= ENV: development =======
+2023-09-07 16:29:04 info: 🚀 App listening on the port 5000
+2023-09-07 16:29:04 info: =================================
+2023-09-07 16:29:04 info: =================================
+2023-09-07 16:29:04 info: ==== DB Connection success!! ====
+2023-09-07 16:29:04 info: =================================
+2023-09-07 16:29:23 info: UserController - createUser
+2023-09-07 16:29:23 info: UserService - createUser
+2023-09-07 16:29:23 info: ../logs
