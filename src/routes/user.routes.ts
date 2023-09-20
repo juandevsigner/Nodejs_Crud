@@ -22,6 +22,8 @@ class UserRoute extends BaseRoute<UserController, ValidateMiddlewareDTO> {
 
     this.router.get(`${this.path}/:id`, (req, res) => this.userController.getUserById(req, res));
 
+    this.router.get(`${this.path}/rel/:id`, (req, res) => this.userController.getUserByIdWithRel(req, res));
+
     this.router.post(
       `${this.path}`,
       (req, res, next) => [this.middleware.validator(req, res, next, UserDTO)],

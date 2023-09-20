@@ -1,0 +1,36 @@
+2023-09-20 14:38:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(36,35): error TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+src/user/user.service.ts(39,5): error TS1003: Identifier expected.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(36,35): error TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.
+src/user/user.service.ts(39,5): error TS1003: Identifier expected.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-32952926143485306.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-32952926143485306.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-32952926143485306.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-09-20 14:39:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(36,32): error TS6133: 'email' is declared but its value is never read.
+src/user/user.service.ts(40,7): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, name, lastName, role, and 6 more.
+
+Error: ⨯ Unable to compile TypeScript:
+src/user/user.service.ts(36,32): error TS6133: 'email' is declared but its value is never read.
+src/user/user.service.ts(40,7): error TS2740: Type 'SelectQueryBuilder<UserEntity>' is missing the following properties from type 'UserEntity': id, name, lastName, role, and 6 more.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\user\user.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-32952926143485306.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-32952926143485306.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-32952926143485306.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)

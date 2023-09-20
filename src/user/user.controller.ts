@@ -34,6 +34,20 @@ class UserController {
     }
   };
 
+  public getUserByIdWithRel = async (req: Request, res: Response) => {
+    try {
+      const { id: userId } = req.params;
+      logger.info(`${UserController.name} - getUserById with id ${userId}`);
+      const user = await this.userService.getUserByIdWithRel(userId);
+      if (!user) {
+        return this.httpResponse.NotFound(res, 'User not found');
+      }
+      return this.httpResponse.OK(res, user);
+    } catch (error) {
+      return this.httpResponse.Error(res, 'Internal Server Error');
+    }
+  };
+
   public createUser = async (req: Request, res: Response) => {
     try {
       logger.info(`${UserController.name} - createUser`);
