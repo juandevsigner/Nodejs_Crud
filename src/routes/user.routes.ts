@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import UserController from '../user/user.controller';
 import { BaseRoute } from '../shared/router/base.router';
-import { ValidateMiddlewareDTO } from '../middleware/validate-dto.middleware';
+import { ValidateMiddlewareDTO } from '../shared/middleware/validate-dto.middleware';
 import { UserDTO } from '../user/dto/user.dto';
 
 class UserRoute extends BaseRoute<UserController, ValidateMiddlewareDTO> {
@@ -30,9 +30,19 @@ class UserRoute extends BaseRoute<UserController, ValidateMiddlewareDTO> {
       (req, res) => this.userController.createUser(req, res),
     );
 
-    this.router.put(`${this.path}/:id`, (req, res) => this.userController.updateUserById(req, res));
+    this.router.put(
+      `${this.path}/:id`,
+      this.middleware.passAuth('jwt'),
+      (req, res, next) => [this.middleware.checkAdminRole(req, res, next)],
+      (req, res) => this.userController.updateUserById(req, res),
+    );
 
-    this.router.delete(`${this.path}/:id`, (req, res) => this.userController.deleteUserById(req, res));
+    this.router.delete(
+      `${this.path}/:id`,
+      this.middleware.passAuth('jwt'),
+      (req, res, next) => [this.middleware.checkAdminRole(req, res, next)],
+      (req, res) => this.userController.deleteUserById(req, res),
+    );
   }
 }
 

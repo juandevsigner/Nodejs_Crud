@@ -1,0 +1,68 @@
+2023-09-22 09:18:18 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(8,14): error TS2415: Class 'ValidateMiddlewareDTO' incorrectly extends base class 'SharedMiddleware'.
+  Property 'httpResponse' is private in type 'ValidateMiddlewareDTO' but not in type 'SharedMiddleware'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(8,14): error TS2415: Class 'ValidateMiddlewareDTO' incorrectly extends base class 'SharedMiddleware'.
+  Property 'httpResponse' is private in type 'ValidateMiddlewareDTO' but not in type 'SharedMiddleware'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\shared\middleware\validate-dto.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9669557421888451.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9669557421888451.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9669557421888451.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-09-22 09:18:45 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(2,1): error TS6133: 'HttpResponse' is declared but its value is never read.
+
+Error: ⨯ Unable to compile TypeScript:
+src/shared/middleware/validate-dto.middleware.ts(2,1): error TS6133: 'HttpResponse' is declared but its value is never read.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\shared\middleware\validate-dto.middleware.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9669557421888451.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9669557421888451.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9669557421888451.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-09-22 09:22:24 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(37,13): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(37,44): error TS2554: Expected 3 arguments, but got 2.
+
+Error: ⨯ Unable to compile TypeScript:
+src/routes/user.routes.ts(37,13): error TS6133: 'res' is declared but its value is never read.
+src/routes/user.routes.ts(37,44): error TS2554: Expected 3 arguments, but got 2.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\routes\user.routes.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9669557421888451.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9669557421888451.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9669557421888451.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-09-22 09:37:38 error: uncaughtException: ⨯ Unable to compile TypeScript:
+src/auth/service/auth.service.ts(39,46): error TS2339: Property 'findUserWithRol' does not exist on type 'UserService'.
+
+Error: ⨯ Unable to compile TypeScript:
+src/auth/service/auth.service.ts(39,46): error TS2339: Property 'findUserWithRol' does not exist on type 'UserService'.
+
+    at Object.<anonymous> (C:\Users\Usuario\Desktop\node backend\src\auth\service\auth.service.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (C:\Users\Usuario\Desktop\node backend\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9669557421888451.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9669557421888451.js:114:20)
+    at require.extensions.<computed> (C:\Users\Usuario\AppData\Local\Temp\ts-node-dev-hook-9669557421888451.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Usuario\Desktop\node backend\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)

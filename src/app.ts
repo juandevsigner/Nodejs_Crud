@@ -14,6 +14,8 @@ import corsConfig from './config/cors.config';
 
 import { DataSource } from 'typeorm';
 import { join } from 'path';
+import { LoginStrategy } from './auth/strategies/login.strategy';
+import { JwtStrategy } from './auth/strategies/jwt.strategy';
 
 class App extends ConfigServer {
   public app: express.Application;
@@ -30,6 +32,7 @@ class App extends ConfigServer {
     this.connectToDatabase();
     this.initializeMiddlewares();
     this.initializeRoutes(routes);
+    this.passportUser();
     this.initializeSwagger();
     this.initializeErrorHandling();
   }
@@ -45,6 +48,9 @@ class App extends ConfigServer {
     this.server = this.app.listen(this.port, () => {
       done();
     });
+  }
+  public passportUser() {
+    return [new LoginStrategy().use, new JwtStrategy().use];
   }
 
   /**
