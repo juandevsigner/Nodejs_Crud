@@ -39,6 +39,8 @@
     "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
     "reflect-metadata": "^0.1.13",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
     "ts-node-dev": "^2.0.0",
     "typeorm": "^0.3.17",
     "typeorm-naming-strategies": "^4.1.0",
@@ -69,9 +71,7 @@
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^5.0.0",
     "lint-staged": "^13.2.3",
-    "prettier": "^3.0.1",
-    "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.0"
+    "prettier": "^3.0.1"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
