@@ -1,0 +1,112 @@
+2023-09-25 09:01:03 error: uncaughtException: connect ECONNREFUSED 192.168.0.113:3412
+Error: connect ECONNREFUSED 192.168.0.113:3412
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:400:36)
+    at DataSource.initialize (C:\Users\Usuario\Desktop\node backend\node_modules\src\data-source\DataSource.ts:249:27)
+    at UserService.get initConnect [as initConnect] (C:\Users\Usuario\Desktop\node backend\src\config\config.ts:24:26)
+2023-09-25 09:01:03 error: uncaughtException: connect ECONNREFUSED 192.168.0.113:3412
+Error: connect ECONNREFUSED 192.168.0.113:3412
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:400:36)
+    at DataSource.initialize (C:\Users\Usuario\Desktop\node backend\node_modules\src\data-source\DataSource.ts:249:27)
+    at UserService.get initConnect [as initConnect] (C:\Users\Usuario\Desktop\node backend\src\config\config.ts:24:26)
+2023-09-25 09:01:03 error: uncaughtException: connect ECONNREFUSED 192.168.0.113:3412
+Error: connect ECONNREFUSED 192.168.0.113:3412
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:400:36)
+    at DataSource.initialize (C:\Users\Usuario\Desktop\node backend\node_modules\src\data-source\DataSource.ts:249:27)
+    at UserService.get initConnect [as initConnect] (C:\Users\Usuario\Desktop\node backend\src\config\config.ts:24:26)
+2023-09-25 09:01:03 error: uncaughtException: connect ECONNREFUSED 192.168.0.113:3412
+Error: connect ECONNREFUSED 192.168.0.113:3412
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:400:36)
+    at DataSource.initialize (C:\Users\Usuario\Desktop\node backend\node_modules\src\data-source\DataSource.ts:249:27)
+    at CustomerService.get initConnect [as initConnect] (C:\Users\Usuario\Desktop\node backend\src\config\config.ts:24:26)
+2023-09-25 09:01:03 error: uncaughtException: connect ECONNREFUSED 192.168.0.113:3412
+Error: connect ECONNREFUSED 192.168.0.113:3412
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:400:36)
+    at DataSource.initialize (C:\Users\Usuario\Desktop\node backend\node_modules\src\data-source\DataSource.ts:249:27)
+    at UserService.get initConnect [as initConnect] (C:\Users\Usuario\Desktop\node backend\src\config\config.ts:24:26)
+2023-09-25 09:01:03 error: uncaughtException: connect ECONNREFUSED 192.168.0.113:3412
+Error: connect ECONNREFUSED 192.168.0.113:3412
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:400:36)
+    at DataSource.initialize (C:\Users\Usuario\Desktop\node backend\node_modules\src\data-source\DataSource.ts:249:27)
+    at UserService.get initConnect [as initConnect] (C:\Users\Usuario\Desktop\node backend\src\config\config.ts:24:26)
+2023-09-25 09:01:03 error: uncaughtException: connect ECONNREFUSED 192.168.0.113:3412
+Error: connect ECONNREFUSED 192.168.0.113:3412
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:400:36)
+    at DataSource.initialize (C:\Users\Usuario\Desktop\node backend\node_modules\src\data-source\DataSource.ts:249:27)
+    at UserService.get initConnect [as initConnect] (C:\Users\Usuario\Desktop\node backend\src\config\config.ts:24:26)
+2023-09-25 09:01:03 error: uncaughtException: connect ECONNREFUSED 192.168.0.113:3412
+Error: connect ECONNREFUSED 192.168.0.113:3412
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\Usuario\Desktop\node backend\node_modules\mysql\lib\Pool.js:48:16)
+    at C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1268:18
+    at new Promise (<anonymous>)
+    at MysqlDriver.createPool (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:1265:16)
+    at MysqlDriver.connect (C:\Users\Usuario\Desktop\node backend\node_modules\typeorm\src\driver\mysql\MysqlDriver.ts:400:36)
+    at DataSource.initialize (C:\Users\Usuario\Desktop\node backend\node_modules\src\data-source\DataSource.ts:249:27)
+    at CustomerService.get initConnect [as initConnect] (C:\Users\Usuario\Desktop\node backend\src\config\config.ts:24:26)

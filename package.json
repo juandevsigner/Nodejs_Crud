@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "cross-env  NODE_ENV=development ts-node-dev ./src/index.ts",
     "test": "cross-env NODE_ENV=test ts-node ./src/index.ts",
-    "prod": "cross-env NODE_ENV=production ts-node ./src/index.ts",
+    "start:prod": "cross-env NODE_ENV=production ts-node ./src/index.ts",
     "lint": "eslint src/**/*.ts",
     "format": "eslint src/**/*.ts --fix",
     "typeorm": "typeorm-ts-node-esm -d ./src/config/data.source.ts",
